@@ -1,14 +1,10 @@
 import React from 'react';
 import "./App.scss";
-import { Notification, Section } from 'rbx';
+import Home from "./screens/home"
 
 const App = () => (
     <div>
-        <Section>
-            <Notification color="success">
-                Notes
-            </Notification>
-        </Section>
+        <Home />
     </div>
 )
 
